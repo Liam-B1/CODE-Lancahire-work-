@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    background-color: #B0D7FF;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    color: #2D3142;
+    text-decoration: underline #ADACB5;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+nav li:hover{
+    color: #2D3142;
+    text-decoration: underline #ADACB5 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+h2 { 
+    font-size: 2rem;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 500;
+    color: #2D3142;
+}
+
+p { 
+    font-family: 'Baloo Thambi 2';
+    font-weight: 300;
+}
+
+hr {
+    color: #ADACB5;
+    border: solid 2px;
+    width: 5%;
+    border-radius: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section {
+    display: block;
+    background-color: #D8D5DB;
+}
+
+ .bio {
+    justify-content: center;
+    align-content: flex-start;
+    background-color: #D8D5DB;
+}
+
+.bio h2 {
+
+    margin-left: 20px;
+}
+
+.bio p {
+    text-align: center;
+    justify-content: center;
+}
