@@ -8,9 +8,11 @@ body {
 
 h1 {
     color: #2D3142;
-    text-decoration: underline #ADACB5;
+    text-decoration: underline #FFFFFF;
     font-size: 3rem;
     margin-bottom: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
 }
 
 nav ul {
@@ -21,11 +23,12 @@ nav ul {
     font-family: 'Baloo Thambi 2';
     font-weight: 700;
     margin-bottom: 50px;
+    font-size: 1.25rem;
 }
 
 nav li:hover{
     color: #2D3142;
-    text-decoration: underline #ADACB5 2px;
+    text-decoration: underline #FFFFFF 2px;
     border-radius: 20px;
     padding: 5px;
 }
@@ -40,35 +43,77 @@ h2 {
 
 p { 
     font-family: 'Baloo Thambi 2';
-    font-weight: 300;
+    font-weight: 400;
 }
 
-hr {
-    color: #ADACB5;
-    border: solid 2px;
-    width: 5%;
-    border-radius: 15%;
+div{
+    border-radius: 7px;
+    border-style: hidden;
+
+}
+
+.main-grid {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5 1fr);
+    gap: 1rem;
+}
+
+.bio {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color:#FFFFFF;
+    font-size: medium;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.bio img {
+    width: 350px;
+    height: auto;
+    padding-left: 90px;
+}
+
+.projects {
+    grid-column: span 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.profesional-experiences{
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.profesional-experiences ul{
+    margin-right: 50px;
+}
+
+.skills{
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.skills ul {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 50px;
 }
 
-section {
-    display: block;
-    background-color: #D8D5DB;
+.contact-me {
+    grid-column: span 2;
+    grid-row: span 2;
+    justify-items: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content:space-around;
 }
 
- .bio {
-    justify-content: center;
-    align-content: flex-start;
-    background-color: #D8D5DB;
+.contact-me button {
+    padding: 10px;
 }
 
-.bio h2 {
 
-    margin-left: 20px;
-}
-
-.bio p {
-    text-align: center;
-    justify-content: center;
-}
