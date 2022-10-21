@@ -126,6 +126,16 @@ button:hover{
     background-color: #2D3142;
 }
 
+#list ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+#list li{
+    list-style: none;
+}
+
 footer{
     display: flex;
     justify-content: center;
