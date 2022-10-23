@@ -126,14 +126,37 @@ button:hover{
     background-color: #2D3142;
 }
 
-#list ul{
-    display: flex;
-    justify-content: center;
-}
-
 
 #list li{
     list-style: none;
+}
+
+.toDoList{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: auto;
+    margin-top: 150px;
+}
+
+#item {
+    border-radius: 7px;
+    border: none;
+}
+
+#addItem{
+    border-radius: 7px;
+    border: none;
+    padding: 20px;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    font-size: 1.5rem;
 }
 
 footer{
