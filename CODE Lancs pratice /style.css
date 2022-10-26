@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px;
-    background-color: #B0D7FF;
+    background-color: #FFFCFF;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -15,22 +15,52 @@ h1 {
     margin-top: 50px;
 }
 
-nav ul {
+header{
     display: flex;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav li {
+    display: inline-block;
     list-style: none;
-    justify-content: space-evenly;
     font-family: 'Baloo Thambi 2';
-    font-weight: 700;
-    margin-bottom: 50px;
-    font-size: 1.25rem;
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 5px 10px;
+}
+
+.contact{
+    padding: 9px 20px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #C3B299;
+}
+
+.contact:hover{
+    color: #FFFCFF;
+    border-radius: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
 }
 
 nav li:hover{
-    color: #2D3142;
-    text-decoration: underline #FFFFFF 2px;
-    border-radius: 20px;
-    padding: 5px;
+    color: #FFFCFF;
+    border-radius: 9px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
+
+}
+
+img {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 700px;
+    height: 700px;
+    border-radius: 7px;
 }
 
 
@@ -38,7 +68,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Baloo Thambi 2';
     font-weight: 500;
-    color: #2D3142;
+    color: #50514F;
 }
 
 p { 
@@ -58,13 +88,14 @@ div{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5 1fr);
     gap: 1rem;
+    row-gap: 200px;
 }
 
 .bio {
     grid-column: span 2;
-    grid-row: span 2;
-    background-color:#FFFFFF;
-    font-size: medium;
+    grid-row: span 1;
+    background-color:#CBD4C2;
+    font-size: 1.25rem;
     font-weight: 200;
     padding: 10px;
 }
@@ -80,11 +111,11 @@ div{
     grid-column-start: 3;
     grid-column-end: 5;
     padding: 10px;
-    background-color: #FFFFFF;
+    background-color: #CBD4C2;
 }
 
 .profesional-experiences{
-    background-color: #FFFFFF;
+    background-color: #CBD4C2;
     padding-left: 10px;
 }
 
@@ -93,7 +124,7 @@ div{
 }
 
 .skills{
-    background-color: #FFFFFF;
+    background-color: #CBD4C2;
     padding-left: 10px;
 }
 
@@ -110,20 +141,24 @@ div{
     grid-column-end: 4;
     display: flex;
     justify-content:space-around;
+    background-color: #CBD4C2;
 }
 
 .contact-me button {
     border-radius: 12px;
     height: 75px;
     width: 150px;
-    color: #2D3142;
-    background-color: #FFFFFF;
+    color: #50514F;
+    background-color: #C3B299;
     border: none;
 }
 
 button:hover{
-    color:#FFFFFF;
-    background-color: #2D3142;
+    color: #FFFCFF;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
 }
 
 
