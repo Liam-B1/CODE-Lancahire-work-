@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    background-color: #FFFCFF;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    color: #2D3142;
+    text-decoration: underline #FFFFFF;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 5px 10px;
+}
+
+.contact{
+    padding: 9px 20px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #C3B299;
+}
+
+.contact:hover{
+    color: #FFFCFF;
+    border-radius: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
+}
+
+nav li:hover{
+    color: #FFFCFF;
+    border-radius: 9px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
+
+}
+
+img {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 700px;
+    height: 700px;
+    border-radius: 7px;
+}
+
+
+h2 { 
+    font-size: 2rem;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 500;
+    color: #50514F;
+}
+
+p { 
+    font-family: 'Baloo Thambi 2';
+    font-weight: 400;
+}
+
+div{
+    border-radius: 7px;
+    border-style: hidden;
+
+}
+
+.main-grid {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5 1fr);
+    gap: 1rem;
+    row-gap: 200px;
+}
+
+.bio {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color:#CBD4C2;
+    font-size: 1.25rem;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.bio img {
+    width: 350px;
+    height: auto;
+    padding-left: 150px;
+}
+
+.projects {
+    grid-column: span 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 10px;
+    background-color: #CBD4C2;
+}
+
+.profesional-experiences{
+    background-color: #CBD4C2;
+    padding-left: 10px;
+}
+
+.profesional-experiences ul{
+    margin-right: 50px;
+}
+
+.skills{
+    background-color: #CBD4C2;
+    padding-left: 10px;
+}
+
+.skills ul {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.contact-me {
+    grid-column: span 2;
+    grid-row: span 2;
+    justify-items: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content:space-around;
+    background-color: #CBD4C2;
+}
+
+.contact-me button {
+    border-radius: 12px;
+    height: 75px;
+    width: 150px;
+    color: #50514F;
+    background-color: #C3B299;
+    border: none;
+}
+
+button:hover{
+    color: #FFFCFF;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #C3B299;
+}
+
+
+#list li{
+    list-style: none;
+}
+
+.toDoList{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: auto;
+    margin-top: 150px;
+}
+
+#item {
+    border-radius: 7px;
+    border: none;
+}
+
+#addItem{
+    border-radius: 7px;
+    border: none;
+    padding: 20px;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
